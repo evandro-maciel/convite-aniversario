@@ -1,0 +1,327 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+a { text-decoration: none; }
+
+.tela-inteira {
+    width: auto; /* Opcional: para ocupar toda a largura */
+    height: 75vh;
+        /* Outras propriedades, como background-color ou background-image */
+}
+
+
+:root {
+    --cor-primaria: #030303;
+    --cor-secundaria: #123458;
+    --cor-terciaria: #D4C9BE;
+    --cor-hover: #F1EFEC;
+    --hover-button: #1C5087;
+
+    --fonte-primaria: 'Aldrich', sans-serif;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+  /*   box-sizing: border-box;
+    background-color: var(--cor-primaria); 
+    width: 100%;
+    background-size: 37% auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 0.625rem;
+    margin: 0; 
+    padding: 0;
+    align-items: center; */
+    
+    
+}
+
+/* header {
+    display: flex;
+    gap: 2.5rem;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    padding: 1.25rem;
+    padding-left: 15%;
+    font-family: var(--fonte-primaria);
+} */
+
+.cabecalho{
+    padding: 0.5% 0% 0.5% 15%;
+    background-color: var(--cor-secundaria);
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5%;
+        
+}
+
+.cabecalho__menu__link:hover{
+    background-color: var(--hover-button);
+    color: var(--cor-primaria);
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    height: 50vh;
+    padding-top: 3.125rem;
+} */
+
+.apresentacao{
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* h1 { 
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria); 
+    font: 2.25rem; 
+    margin-bottom: 3px;
+    text-align: left;
+    
+}
+ */
+
+.apresentacao__conteudo__titulo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.2rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-hover);
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding: 15px 0;
+    text-decoration: none;
+    background-color: var(--cor-secundaria); 
+    color: var(--cor-hover); 
+    
+    font-family: 'Aldrich', sans-serif;
+}
+
+/* h2 {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria); 
+    font-size: 1.5rem; 
+    margin-bottom: 1.25rem;
+    text-align: left;
+} */
+
+/* .titulo {
+    text-align: center; 
+    margin-bottom: 1.25rem;
+    padding-left: 15%;
+    padding-bottom: 0.625rem;
+}
+ */
+
+
+
+/* .corpoDoTexto {
+    max-width: 800px; 
+    padding: 10px;
+    padding-left: 15%;
+    padding-right: 40%; 
+    padding-top: 0px;
+    background-color: var(--cor-primaria); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: var(--fonte-primaria); 
+} 
+
+p { 
+    display: flex; 
+    color: var(--cor-secundaria);
+    font-size: 25px; 
+    line-height: 1.5; 
+    color: #f0f0f0; 
+    text-align: justify;
+    justify-content: column;
+} */
+
+/* a {
+    background-color: var(--cor-secundaria); 
+    color: var(--cor-terciaria); 
+    border: none; 
+    padding: 10px 20px; 
+    font-family: var(--fonte-primaria);
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+} */
+
+/* .personagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 300px; 
+    height: auto; 
+    position: default; 
+    bottom: 60%; 
+    right: 16%; 
+    margin-right: 80px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+    padding-left: 45%;
+    
+} */
+
+.apresentacao__links__navegacao:hover{
+    background-color: var(--hover-button);
+    color: var(--cor-primaria);
+    
+}
+
+.apresentacao__imagem{
+    width: 30%;
+    opacity: 0.2;
+    padding-right: 5%;
+}
+
+/* a:hover {
+    background-color: var(--hover-button); 
+    color: var(--cor-primaria);
+}
+ */
+/* .botoes {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px; 
+    margin-top: 30px; 
+    padding-left: 15%;
+    align-items: left;
+    width: 245px;
+    justify-content: space-between;
+    
+} */
+
+/* .rodape {
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    text-align: center;
+    padding: 0px;
+    bottom: 0;
+    padding-left: 15%;
+    position: fixed; 
+    left: 0;
+    width: 100%;
+} */
+
+.rodape {
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    padding: 12px;
+    text-align: left;
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 200;
+    padding-left: 15%;
+        
+}
+
+/* @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .texto, .imagem {
+        flex: none;
+        width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .corpoDoTexto {
+        font-size: 1.1rem;
+    }
+    .personagem {
+        max-width: 300px;
+        opacity: 0.4;
+    }
+} */
+
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding:10%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+       }
+   
+}
