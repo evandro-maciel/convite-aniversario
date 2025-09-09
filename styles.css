@@ -56,7 +56,7 @@ body {
 } */
 
 .cabecalho{
-    padding: 0.5% 0% 0.5% 15%;
+    padding: 0.3% 0% 0.3% 15%;
     background-color: var(--cor-secundaria);
 }
 
@@ -241,7 +241,7 @@ p {
 
 .apresentacao__imagem{
     width: 30%;
-    opacity: 0.2;
+    opacity: 0.15;
     padding-right: 5%;
 }
 
@@ -278,12 +278,14 @@ p {
 .rodape {
     color: var(--cor-terciaria);
     background-color: var(--cor-secundaria);
-    padding: 12px;
+    padding: 10px;
     text-align: left;
     font-family: var(--fonte-primaria);
     font-size: 1rem;
     font-weight: 200;
     padding-left: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
         
 }
 
